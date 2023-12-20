@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0423962A2B331F05007FA552 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042396292B331F05007FA552 /* SectionHeader.swift */; };
 		048744152B2D0CA300D06DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048744142B2D0CA300D06DB3 /* AppDelegate.swift */; };
 		048744172B2D0CA300D06DB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048744162B2D0CA300D06DB3 /* SceneDelegate.swift */; };
-		048744192B2D0CA300D06DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048744182B2D0CA300D06DB3 /* ViewController.swift */; };
+		048744192B2D0CA300D06DB3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048744182B2D0CA300D06DB3 /* SignUpViewController.swift */; };
 		0487441C2B2D0CA300D06DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0487441A2B2D0CA300D06DB3 /* Main.storyboard */; };
 		0487441E2B2D0CA600D06DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0487441D2B2D0CA600D06DB3 /* Assets.xcassets */; };
 		048744212B2D0CA600D06DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0487441F2B2D0CA600D06DB3 /* LaunchScreen.storyboard */; };
+		04895AF02B31EF6600FBB427 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04895AEF2B31EF6600FBB427 /* SignupViewModel.swift */; };
+		04895AF22B31F2FD00FBB427 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04895AF12B31F2FD00FBB427 /* LoginViewModel.swift */; };
+		048BD6BD2B2D31A700A7A0BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048BD6BC2B2D31A700A7A0BE /* LoginViewController.swift */; };
+		049E8EBB2B308CF20068E085 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E8EBA2B308CF20068E085 /* NetworkManager.swift */; };
+		049E8EBE2B3095BD0068E085 /* MyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E8EBD2B3095BD0068E085 /* MyResponse.swift */; };
+		049E8EC32B30A4670068E085 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E8EC22B30A4670068E085 /* HomeViewModel.swift */; };
+		049E8EC62B30AD040068E085 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E8EC52B30AD040068E085 /* HomeViewController.swift */; };
+		04D73A7F2B31D6BF0075827D /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D73A7D2B31D6BF0075827D /* CategoryCollectionViewCell.swift */; };
+		04D73A802B31D6BF0075827D /* CategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D73A7E2B31D6BF0075827D /* CategoryCollectionViewCell.xib */; };
+		04D73A872B31DAA80075827D /* TrendingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D73A852B31DAA80075827D /* TrendingCollectionViewCell.swift */; };
+		04D73A882B31DAA80075827D /* TrendingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D73A862B31DAA80075827D /* TrendingCollectionViewCell.xib */; };
+		04EF15322B32191600A8154C /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EF15302B32191500A8154C /* PopularCollectionViewCell.swift */; };
+		04EF15332B32191600A8154C /* PopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EF15312B32191500A8154C /* PopularCollectionViewCell.xib */; };
+		41DAE423BE94F47210CF4276 /* Pods_YjahzApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE199D6BA33DE478471A4A0D /* Pods_YjahzApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		042396292B331F05007FA552 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
 		048744112B2D0CA300D06DB3 /* YjahzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YjahzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		048744142B2D0CA300D06DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		048744162B2D0CA300D06DB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		048744182B2D0CA300D06DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		048744182B2D0CA300D06DB3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0487441B2B2D0CA300D06DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0487441D2B2D0CA600D06DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		048744202B2D0CA600D06DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		048744222B2D0CA600D06DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04895AEF2B31EF6600FBB427 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		04895AF12B31F2FD00FBB427 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		048BD6BC2B2D31A700A7A0BE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		049E8EBA2B308CF20068E085 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		049E8EBD2B3095BD0068E085 /* MyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyResponse.swift; sourceTree = "<group>"; };
+		049E8EC22B30A4670068E085 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		049E8EC52B30AD040068E085 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04D73A7D2B31D6BF0075827D /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		04D73A7E2B31D6BF0075827D /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		04D73A852B31DAA80075827D /* TrendingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCollectionViewCell.swift; sourceTree = "<group>"; };
+		04D73A862B31DAA80075827D /* TrendingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrendingCollectionViewCell.xib; sourceTree = "<group>"; };
+		04EF15302B32191500A8154C /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		04EF15312B32191500A8154C /* PopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularCollectionViewCell.xib; sourceTree = "<group>"; };
+		255827FF4D7BA92A5AE3BE06 /* Pods-YjahzApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YjahzApp.debug.xcconfig"; path = "Target Support Files/Pods-YjahzApp/Pods-YjahzApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DE199D6BA33DE478471A4A0D /* Pods_YjahzApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YjahzApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F398E7770BF04D9871D7919A /* Pods-YjahzApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YjahzApp.release.xcconfig"; path = "Target Support Files/Pods-YjahzApp/Pods-YjahzApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DAE423BE94F47210CF4276 /* Pods_YjahzApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				048744132B2D0CA300D06DB3 /* YjahzApp */,
 				048744122B2D0CA300D06DB3 /* Products */,
+				41384782B30E45C314724D7B /* Pods */,
+				22F8AAE0B922DC9ACB202796 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +91,150 @@
 		048744132B2D0CA300D06DB3 /* YjahzApp */ = {
 			isa = PBXGroup;
 			children = (
+				049E8EBF2B30A4250068E085 /* Modules */,
+				049E8EBC2B3095A20068E085 /* Models */,
+				049E8EB82B308CBB0068E085 /* Services */,
 				048744142B2D0CA300D06DB3 /* AppDelegate.swift */,
 				048744162B2D0CA300D06DB3 /* SceneDelegate.swift */,
-				048744182B2D0CA300D06DB3 /* ViewController.swift */,
 				0487441A2B2D0CA300D06DB3 /* Main.storyboard */,
 				0487441D2B2D0CA600D06DB3 /* Assets.xcassets */,
 				0487441F2B2D0CA600D06DB3 /* LaunchScreen.storyboard */,
 				048744222B2D0CA600D06DB3 /* Info.plist */,
 			);
 			path = YjahzApp;
+			sourceTree = "<group>";
+		};
+		049E8EB82B308CBB0068E085 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				049E8EB92B308CCA0068E085 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		049E8EB92B308CCA0068E085 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				049E8EBA2B308CF20068E085 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		049E8EBC2B3095A20068E085 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				049E8EBD2B3095BD0068E085 /* MyResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		049E8EBF2B30A4250068E085 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				04D73A8C2B31DB160075827D /* SignupScreen */,
+				04D73A892B31DAE30075827D /* LoginScreen */,
+				049E8EC02B30A4320068E085 /* HomeScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		049E8EC02B30A4320068E085 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				049E8EC12B30A4550068E085 /* ViewModel */,
+				049E8EC42B30AC520068E085 /* View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		049E8EC12B30A4550068E085 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				049E8EC22B30A4670068E085 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		049E8EC42B30AC520068E085 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				049E8EC52B30AD040068E085 /* HomeViewController.swift */,
+				04D73A7D2B31D6BF0075827D /* CategoryCollectionViewCell.swift */,
+				04D73A7E2B31D6BF0075827D /* CategoryCollectionViewCell.xib */,
+				04D73A852B31DAA80075827D /* TrendingCollectionViewCell.swift */,
+				04D73A862B31DAA80075827D /* TrendingCollectionViewCell.xib */,
+				04EF15302B32191500A8154C /* PopularCollectionViewCell.swift */,
+				04EF15312B32191500A8154C /* PopularCollectionViewCell.xib */,
+				042396292B331F05007FA552 /* SectionHeader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04D73A892B31DAE30075827D /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				04D73A8B2B31DB050075827D /* ViewModel */,
+				04D73A8A2B31DAF40075827D /* View */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		04D73A8A2B31DAF40075827D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				048BD6BC2B2D31A700A7A0BE /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04D73A8B2B31DB050075827D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04895AF12B31F2FD00FBB427 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		04D73A8C2B31DB160075827D /* SignupScreen */ = {
+			isa = PBXGroup;
+			children = (
+				04D73A8E2B31DB2B0075827D /* View Model */,
+				04D73A8D2B31DB250075827D /* View */,
+			);
+			path = SignupScreen;
+			sourceTree = "<group>";
+		};
+		04D73A8D2B31DB250075827D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				048744182B2D0CA300D06DB3 /* SignUpViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04D73A8E2B31DB2B0075827D /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				04895AEF2B31EF6600FBB427 /* SignupViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		22F8AAE0B922DC9ACB202796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE199D6BA33DE478471A4A0D /* Pods_YjahzApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41384782B30E45C314724D7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				255827FF4D7BA92A5AE3BE06 /* Pods-YjahzApp.debug.xcconfig */,
+				F398E7770BF04D9871D7919A /* Pods-YjahzApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 048744252B2D0CA600D06DB3 /* Build configuration list for PBXNativeTarget "YjahzApp" */;
 			buildPhases = (
+				2E8C5243A4A0DBED43242244 /* [CP] Check Pods Manifest.lock */,
 				0487440D2B2D0CA300D06DB3 /* Sources */,
 				0487440E2B2D0CA300D06DB3 /* Frameworks */,
 				0487440F2B2D0CA300D06DB3 /* Resources */,
+				DA95EE721B08347AEA3DE808 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,20 +297,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D73A802B31D6BF0075827D /* CategoryCollectionViewCell.xib in Resources */,
 				048744212B2D0CA600D06DB3 /* LaunchScreen.storyboard in Resources */,
 				0487441E2B2D0CA600D06DB3 /* Assets.xcassets in Resources */,
 				0487441C2B2D0CA300D06DB3 /* Main.storyboard in Resources */,
+				04EF15332B32191600A8154C /* PopularCollectionViewCell.xib in Resources */,
+				04D73A882B31DAA80075827D /* TrendingCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E8C5243A4A0DBED43242244 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YjahzApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA95EE721B08347AEA3DE808 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YjahzApp/Pods-YjahzApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YjahzApp/Pods-YjahzApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YjahzApp/Pods-YjahzApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0487440D2B2D0CA300D06DB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				048744192B2D0CA300D06DB3 /* ViewController.swift in Sources */,
+				048BD6BD2B2D31A700A7A0BE /* LoginViewController.swift in Sources */,
+				048744192B2D0CA300D06DB3 /* SignUpViewController.swift in Sources */,
+				0423962A2B331F05007FA552 /* SectionHeader.swift in Sources */,
+				049E8EC32B30A4670068E085 /* HomeViewModel.swift in Sources */,
+				049E8EC62B30AD040068E085 /* HomeViewController.swift in Sources */,
+				04EF15322B32191600A8154C /* PopularCollectionViewCell.swift in Sources */,
+				04D73A7F2B31D6BF0075827D /* CategoryCollectionViewCell.swift in Sources */,
+				04895AF02B31EF6600FBB427 /* SignupViewModel.swift in Sources */,
+				049E8EBE2B3095BD0068E085 /* MyResponse.swift in Sources */,
+				04895AF22B31F2FD00FBB427 /* LoginViewModel.swift in Sources */,
+				049E8EBB2B308CF20068E085 /* NetworkManager.swift in Sources */,
+				04D73A872B31DAA80075827D /* TrendingCollectionViewCell.swift in Sources */,
 				048744152B2D0CA300D06DB3 /* AppDelegate.swift in Sources */,
 				048744172B2D0CA300D06DB3 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +510,7 @@
 		};
 		048744262B2D0CA600D06DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255827FF4D7BA92A5AE3BE06 /* Pods-YjahzApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +538,7 @@
 		};
 		048744272B2D0CA600D06DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F398E7770BF04D9871D7919A /* Pods-YjahzApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
